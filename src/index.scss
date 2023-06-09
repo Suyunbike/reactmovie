@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply min-h-screen w-full bg-indigo-200;
+}
+
+.container {
+    @apply w-[80%] min-h-[50vh] mx-auto my-[10vh] bg-white rounded-md p-6 shadow-md;
+}

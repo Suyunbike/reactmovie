@@ -1,0 +1,23 @@
+.movies {
+    @apply my-12 grid gap-4 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-4;
+
+    .item {
+        @apply rounded-md bg-white p-4 shadow-md;
+
+        img {
+            @apply mb-4 h-[400px] w-full rounded-md object-cover;
+        }
+
+        h1 {
+            @apply text-[26px] font-semibold text-slate-700;
+        }
+
+        .details-info {
+            @apply mt-4 flex items-center justify-between;
+
+            span {
+                @apply text-slate-400;
+            }
+        }
+    }
+}

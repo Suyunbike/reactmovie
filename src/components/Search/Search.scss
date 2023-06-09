@@ -1,0 +1,11 @@
+.search {
+    @apply flex w-full items-center gap-4 rounded-lg bg-slate-200 p-4 px-6;
+
+    i {
+        @apply text-4xl text-slate-400;
+    }
+
+    input {
+        @apply w-full border-none bg-transparent py-4 text-2xl text-slate-600;
+    }
+}
